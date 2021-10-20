@@ -1,0 +1,27 @@
+.dice circle {
+    fill: #F57C00;
+    transition: all .5s;
+    transform-origin: 25px 25px;
+}
+
+.dice:hover circle {
+    transform: scale(1.1);
+}
+
+.magic {
+    transition: transform 4s ease;
+    transform-origin: 30px 30px;
+}
+
+.ferry-wand:hover .magic {
+    transform: rotate(2turn);
+}
+
+.dice5 g {
+    transition: all .3s;
+    transform-origin: 100px 100px;
+}
+
+.dice5:hover g {
+    transform: scale(1.2);
+}
